@@ -6,7 +6,8 @@ Release:	0
 License:	Unknown
 Group:		Applications/Games
 Source0:        http://nwdownloads.bioware.com/neverwinternights/standaloneserver/%{name}%{version}.zip
-# Source0-md5	79a69c1fe539249181973f56b5b55a39
+# Source0-md5:	2cfd7eb00f39b983dcbddc1c788be55e
+# Source0-md5	
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
