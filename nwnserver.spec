@@ -1,11 +1,11 @@
 Summary:	Neverwinter Nights - Linux dedicated server
 Summary(pl):	Dedykowany serwer gry Neverwinter Nights dla Linuksa
 Name:		NWNDedicatedServer
-Version:	1.32
+Version:	1.62
 Release:	0
 License:	Unknown
 Group:		Applications/Games
-Source0:	%{name}%{version}.zip
+Source0:        http://nwdownloads.bioware.com/neverwinternights/standaloneserver/%{name}%{version}.zip
 # Source0-md5	79a69c1fe539249181973f56b5b55a39
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -13,10 +13,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chroot_home	/home/nwn
 
 %description
-Neverwinter Nights SoU v1.32 Linux Dedicated Server.
+Neverwinter Nights HotU v1.62 Linux Dedicated Server.
 
 %description -l pl
-Serwer gry Neverwinter Nights SoU w wersji 1.32.
+Serwer gry Neverwinter Nights HotU w wersji 1.62.
 
 %prep
 %setup
