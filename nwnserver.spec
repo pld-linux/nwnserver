@@ -8,7 +8,7 @@ Group:		Games
 Source0:	%{name}%{version}.zip
 # Source0-md5	79a69c1fe539249181973f56b5b55a39
 BuildRequires:	unzip
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Neverwinter Nights SoU v1.32 Linux Dedicated Server.
