@@ -1,6 +1,3 @@
-#
-# TODO: spec name vs Name
-#
 %define		_realname	NWNDedicatedServer
 Summary:	Neverwinter Nights - Linux dedicated server
 Summary(pl):	Dedykowany serwer gry Neverwinter Nights dla Linuksa
