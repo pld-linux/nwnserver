@@ -1,3 +1,6 @@
+#
+# TODO: spec name vs Name
+#
 Summary:	Neverwinter Nights - Linux dedicated server
 Summary(pl):	Dedykowany serwer gry Neverwinter Nights dla Linuksa
 Name:		NWNDedicatedServer
@@ -7,6 +10,7 @@ License:	Unknown
 Group:		Applications/Games
 Source0:        http://nwdownloads.bioware.com/neverwinternights/standaloneserver/%{name}%{version}.zip
 # Source0-md5:	2cfd7eb00f39b983dcbddc1c788be55e
+URL:		http://nwn.bioware.com/downloads/standaloneserver.html
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
