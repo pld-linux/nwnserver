@@ -4,7 +4,7 @@ Summary(pl):	Dedykowany serwer gry Neverwinter Nights dla Linuksa
 Name:		nwnserver
 Version:	1.64
 Release:	0
-License:	Unknown
+License:	unknown
 Group:		Applications/Games
 Source0:        http://nwdownloads.bioware.com/neverwinternights/standaloneserver/%{_realname}%{version}.zip
 # Source0-md5:	1b232bc2da01e2bf20570e691abfb29e
