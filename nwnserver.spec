@@ -7,7 +7,6 @@ License:	Unknown
 Group:		Applications/Games
 Source0:        http://nwdownloads.bioware.com/neverwinternights/standaloneserver/%{name}%{version}.zip
 # Source0-md5:	2cfd7eb00f39b983dcbddc1c788be55e
-# Source0-md5	
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,12 +29,10 @@ mv -f nwn.ini.org nwn.ini
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_chroot_home}
-
-#makind directories
 install -d $RPM_BUILD_ROOT%{_chroot_home}/{ambient,data,\
 database,dmvault,docs,erf,hak,localvault,logs,modules,music\
 override,portraits,saves,servervault,temp,utils}
+
 cp -a data/* $RPM_BUILD_ROOT%{_chroot_home}/data
 cp -a database/* $RPM_BUILD_ROOT%{_chroot_home}/database
 cp -a modules/* $RPM_BUILD_ROOT%{_chroot_home}/modules
@@ -46,6 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%dir %{_chroot_home}
 %dir %{_chroot_home}/ambient
 %dir %{_chroot_home}/data
 %{_chroot_home)/data/*.bif
