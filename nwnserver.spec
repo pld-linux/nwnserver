@@ -4,7 +4,7 @@ Name:		NWNDedicatedServer
 Version:	1.32
 Release:	0
 License:	Unknown
-Group:		Games
+Group:		Applications/Games
 Source0:	%{name}%{version}.zip
 # Source0-md5	79a69c1fe539249181973f56b5b55a39
 BuildRequires:	unzip
