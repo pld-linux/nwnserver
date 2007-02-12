@@ -1,6 +1,6 @@
 %define		_realname	NWNDedicatedServer
 Summary:	Neverwinter Nights - Linux dedicated server
-Summary(pl):	Dedykowany serwer gry Neverwinter Nights dla Linuksa
+Summary(pl.UTF-8):   Dedykowany serwer gry Neverwinter Nights dla Linuksa
 Name:		nwnserver
 Version:	1.64
 Release:	0
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Neverwinter Nights HotU v1.64 Linux Dedicated Server.
 
-%description -l pl
+%description -l pl.UTF-8
 Serwer gry Neverwinter Nights HotU w wersji 1.64.
 
 %prep
